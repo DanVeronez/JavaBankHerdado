@@ -10,9 +10,9 @@ public class TestaGerente {
 		daniel.setSalario(5000);
 		daniel.setSenha(123456);
 		
-		System.out.println(daniel.getNome());
-		System.out.println(daniel.getSalario());
-		System.out.println(daniel.getSenha());
+		System.out.println("Nome:      		  " + daniel.getNome());
+		System.out.println("Salario: 	      R$" + daniel.getSalario());
+		System.out.println("Senha Cadastrada: " + daniel.getSenha());
 		
 		System.out.println(daniel.autentica(123456));
 		
