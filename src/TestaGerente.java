@@ -12,7 +12,7 @@ public class TestaGerente {
 		
 		System.out.println("Nome:      		  " + daniel.getNome());
 		System.out.println("Salario: 	      R$" + daniel.getSalario());
-		System.out.println("Senha Cadastrada: " + daniel.getSenha());
+		// System.out.println("Senha Cadastrada: " + daniel.getSenha());
 		
 		System.out.println(daniel.autentica(123456));
 		
